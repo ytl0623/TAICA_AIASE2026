@@ -3,20 +3,20 @@
     "total_students": 607,
     "full_bundle": 559,
     "missing_any_file": 48,
-    "dual_scored": 596,
-    "sonnet_only": 6,
-    "gpt_only": 5,
+    "dual_scored": 606,
+    "sonnet_only": 1,
+    "gpt_only": 0,
     "scoring_errors": 0
   },
   "final_scores": {
     "count": 607,
-    "mean": 89.54,
-    "median": 92.81,
-    "std": 8.46,
+    "mean": 89.99,
+    "median": 93.05,
+    "std": 8.34,
     "min": 60.14,
-    "max": 97.12,
-    "q25": 89.02,
-    "q75": 94.27,
+    "max": 96.88,
+    "q25": 90.0,
+    "q75": 94.36,
     "histogram": {
       "labels": [
         "60-62",
@@ -42,23 +42,23 @@
       ],
       "counts": [
         26,
-        1,
-        5,
+        2,
+        3,
         2,
         4,
-        5,
         4,
-        4,
-        5,
-        8,
+        3,
+        3,
+        3,
+        9,
+        9,
+        11,
         10,
-        16,
-        15,
-        26,
-        48,
-        66,
-        183,
-        165,
+        19,
+        43,
+        74,
+        191,
+        177,
         14,
         0
       ]
@@ -66,13 +66,13 @@
   },
   "raw_totals": {
     "count": 607,
-    "mean": 77.55,
-    "median": 86.12,
-    "std": 22.22,
+    "mean": 78.72,
+    "median": 86.75,
+    "std": 21.88,
     "min": 0.38,
-    "max": 97.45,
-    "q25": 76.17,
-    "q75": 89.95,
+    "max": 96.8,
+    "q25": 78.75,
+    "q75": 90.2,
     "histogram": {
       "labels": [
         "0-5",
@@ -98,23 +98,23 @@
       ],
       "counts": [
         26,
-        1,
-        5,
+        2,
+        3,
         2,
         4,
-        5,
         4,
-        4,
-        5,
-        8,
+        3,
+        3,
+        3,
+        9,
+        9,
+        11,
         10,
-        16,
-        15,
-        26,
-        48,
-        66,
-        183,
-        165,
+        19,
+        43,
+        74,
+        191,
+        177,
         14,
         0
       ]
@@ -123,12 +123,12 @@
   "dimensions": {
     "innovation": {
       "count": 607,
-      "mean": 59.69,
+      "mean": 59.65,
       "median": 63.0,
-      "std": 18.77,
+      "std": 18.69,
       "min": 2.5,
       "max": 90.5,
-      "q25": 52.0,
+      "q25": 53.0,
       "q75": 73.0,
       "histogram": {
         "labels": [
@@ -157,21 +157,21 @@
           12,
           11,
           8,
-          5,
-          8,
+          4,
           9,
-          11,
-          14,
+          8,
+          13,
+          12,
           18,
-          29,
-          45,
-          65,
+          31,
+          41,
+          66,
+          84,
+          85,
           81,
-          83,
-          83,
-          74,
-          39,
-          10,
+          75,
+          38,
+          9,
           2,
           0
         ]
@@ -179,12 +179,12 @@
     },
     "sdd_v1_quality": {
       "count": 607,
-      "mean": 75.83,
+      "mean": 75.74,
       "median": 81.0,
-      "std": 19.33,
+      "std": 19.39,
       "min": 0.0,
       "max": 95.0,
-      "q25": 75.5,
+      "q25": 76.0,
       "q75": 86.0,
       "histogram": {
         "labels": [
@@ -216,30 +216,30 @@
           0,
           0,
           0,
-          1,
-          3,
           2,
-          6,
-          5,
-          17,
-          19,
-          13,
-          34,
-          121,
-          162,
-          162,
-          31,
-          2
+          2,
+          2,
+          7,
+          8,
+          14,
+          16,
+          18,
+          29,
+          127,
+          157,
+          166,
+          29,
+          1
         ]
       }
     },
     "detail_completeness": {
       "count": 607,
-      "mean": 70.65,
+      "mean": 70.56,
       "median": 77.0,
-      "std": 19.86,
+      "std": 19.95,
       "min": 0.0,
-      "max": 93.0,
+      "max": 91.5,
       "q25": 68.5,
       "q75": 83.0,
       "histogram": {
@@ -272,18 +272,18 @@
           0,
           3,
           1,
-          7,
-          6,
           9,
-          13,
-          13,
-          11,
-          24,
-          53,
-          92,
-          120,
-          137,
-          83,
+          4,
+          9,
+          15,
+          12,
+          14,
+          21,
+          52,
+          91,
+          121,
+          138,
+          82,
           6,
           0
         ]
@@ -291,11 +291,11 @@
     },
     "req_match": {
       "count": 607,
-      "mean": 81.69,
-      "median": 90.0,
+      "mean": 81.89,
+      "median": 91.0,
       "std": 24.71,
       "min": 0.0,
-      "max": 97.5,
+      "max": 98.0,
       "q25": 85.0,
       "q75": 93.5,
       "histogram": {
@@ -322,38 +322,38 @@
           "95-100"
         ],
         "counts": [
-          38,
+          39,
           4,
-          3,
+          1,
           1,
           0,
-          1,
+          2,
           3,
           0,
           2,
-          1,
+          2,
+          3,
           5,
+          2,
           5,
-          4,
-          4,
-          10,
-          17,
-          48,
-          109,
-          283,
-          69
+          11,
+          18,
+          47,
+          103,
+          281,
+          78
         ]
       }
     },
     "completeness": {
       "count": 607,
-      "mean": 77.32,
+      "mean": 77.49,
       "median": 88.0,
-      "std": 25.03,
+      "std": 25.08,
       "min": 0.0,
-      "max": 98.0,
-      "q25": 77.0,
-      "q75": 91.0,
+      "max": 98.5,
+      "q25": 78.0,
+      "q75": 91.5,
       "histogram": {
         "labels": [
           "0-5",
@@ -378,37 +378,37 @@
           "95-100"
         ],
         "counts": [
-          37,
-          5,
-          1,
-          1,
+          39,
+          3,
+          2,
+          0,
           2,
           3,
-          6,
-          6,
-          7,
+          4,
+          5,
+          9,
           5,
           7,
-          3,
-          12,
-          16,
-          26,
-          28,
-          60,
-          137,
-          226,
+          4,
+          14,
+          15,
+          22,
+          30,
+          58,
+          134,
+          232,
           19
         ]
       }
     },
     "backward_compat": {
       "count": 607,
-      "mean": 77.58,
+      "mean": 83.13,
       "median": 92.5,
-      "std": 31.86,
+      "std": 23.89,
       "min": 0.0,
-      "max": 100.0,
-      "q25": 82.0,
+      "max": 97.5,
+      "q25": 86.5,
       "q75": 95.0,
       "histogram": {
         "labels": [
@@ -434,37 +434,37 @@
           "95-100"
         ],
         "counts": [
-          77,
-          0,
+          31,
+          3,
           0,
           1,
-          0,
+          1,
           2,
           0,
           5,
           7,
-          7,
-          3,
-          2,
+          9,
+          5,
           4,
-          5,
+          6,
           7,
-          14,
-          26,
-          64,
-          187,
-          196
+          10,
+          16,
+          31,
+          76,
+          196,
+          197
         ]
       }
     },
     "surprise": {
       "count": 607,
-      "mean": 67.72,
+      "mean": 67.79,
       "median": 77.0,
-      "std": 23.1,
+      "std": 23.05,
       "min": 0.0,
-      "max": 92.0,
-      "q25": 67.0,
+      "max": 89.0,
+      "q25": 68.0,
       "q75": 80.0,
       "histogram": {
         "labels": [
@@ -490,42 +490,42 @@
           "95-100"
         ],
         "counts": [
-          37,
-          4,
-          4,
-          4,
-          8,
-          10,
-          6,
-          6,
-          5,
+          39,
+          3,
           2,
+          5,
+          7,
           9,
-          14,
-          25,
+          7,
+          7,
+          4,
+          3,
+          8,
+          13,
+          23,
           28,
-          65,
-          155,
-          183,
-          41,
-          1,
+          68,
+          156,
+          186,
+          39,
+          0,
           0
         ]
       }
     }
   },
   "provider_comparison": {
-    "total_dual_scored": 596,
-    "flagged_count": 18,
+    "total_dual_scored": 606,
+    "flagged_count": 20,
     "sonnet_totals": {
-      "count": 602,
-      "mean": 74.22,
-      "median": 82.1,
-      "std": 22.1,
+      "count": 607,
+      "mean": 75.55,
+      "median": 82.6,
+      "std": 21.73,
       "min": 0.0,
-      "max": 95.6,
-      "q25": 72.9,
-      "q75": 86.55,
+      "max": 96.05,
+      "q25": 75.55,
+      "q75": 87.1,
       "histogram": {
         "labels": [
           "0-5",
@@ -554,34 +554,34 @@
           2,
           5,
           5,
-          4,
+          3,
           1,
-          4,
-          4,
-          4,
-          6,
-          12,
-          23,
-          27,
-          32,
-          70,
-          129,
-          174,
-          70,
+          3,
           2,
+          2,
+          7,
+          9,
+          16,
+          19,
+          26,
+          76,
+          136,
+          187,
+          77,
+          3,
           0
         ]
       }
     },
     "gpt_totals": {
-      "count": 601,
-      "mean": 80.7,
-      "median": 89.9,
-      "std": 23.09,
+      "count": 606,
+      "mean": 81.88,
+      "median": 90.43,
+      "std": 22.73,
       "min": 0.75,
       "max": 99.3,
-      "q25": 78.0,
-      "q75": 94.1,
+      "q25": 82.05,
+      "q75": 94.2,
       "histogram": {
         "labels": [
           "0-5",
@@ -608,35 +608,35 @@
         "counts": [
           25,
           1,
+          4,
+          1,
+          5,
           3,
-          3,
-          2,
-          5,
+          0,
+          7,
           6,
-          5,
+          11,
+          4,
           6,
-          10,
-          5,
-          9,
+          14,
           17,
-          22,
-          39,
-          30,
-          90,
-          195,
-          128,
+          27,
+          34,
+          96,
+          208,
+          137,
           0
         ]
       }
     },
     "diffs": {
-      "count": 596,
-      "mean": -6.45,
-      "median": -7.12,
-      "std": 7.63,
+      "count": 606,
+      "mean": -6.35,
+      "median": -7.15,
+      "std": 7.82,
       "min": -40.0,
       "max": 42.15,
-      "q25": -10.4,
+      "q25": -10.3,
       "q75": -3.4,
       "histogram": {
         "labels": [
@@ -667,18 +667,18 @@
           0,
           3,
           1,
+          10,
+          27,
+          127,
+          217,
+          154,
+          27,
+          15,
           9,
-          26,
-          129,
-          215,
-          149,
-          28,
-          13,
-          8,
           9,
           2,
           2,
-          0,
+          1,
           0,
           1,
           0
@@ -687,39 +687,39 @@
     },
     "dim_comparison": {
       "innovation": {
-        "sonnet_mean": 48.91,
-        "gpt_mean": 70.39,
-        "diff": -21.48
+        "sonnet_mean": 48.94,
+        "gpt_mean": 70.35,
+        "diff": -21.41
       },
       "sdd_v1_quality": {
-        "sonnet_mean": 71.24,
-        "gpt_mean": 80.26,
-        "diff": -9.01
+        "sonnet_mean": 71.26,
+        "gpt_mean": 80.23,
+        "diff": -8.97
       },
       "detail_completeness": {
-        "sonnet_mean": 65.28,
-        "gpt_mean": 75.89,
-        "diff": -10.61
+        "sonnet_mean": 65.27,
+        "gpt_mean": 75.86,
+        "diff": -10.59
       },
       "req_match": {
-        "sonnet_mean": 82.64,
-        "gpt_mean": 80.56,
-        "diff": 2.08
+        "sonnet_mean": 83.04,
+        "gpt_mean": 80.71,
+        "diff": 2.33
       },
       "completeness": {
-        "sonnet_mean": 77.03,
-        "gpt_mean": 77.39,
-        "diff": -0.36
+        "sonnet_mean": 77.39,
+        "gpt_mean": 77.57,
+        "diff": -0.17
       },
       "backward_compat": {
-        "sonnet_mean": 75.36,
-        "gpt_mean": 79.67,
-        "diff": -4.31
+        "sonnet_mean": 81.08,
+        "gpt_mean": 85.18,
+        "diff": -4.1
       },
       "surprise": {
-        "sonnet_mean": 63.27,
-        "gpt_mean": 72.0,
-        "diff": -8.72
+        "sonnet_mean": 63.46,
+        "gpt_mean": 72.12,
+        "diff": -8.66
       }
     }
   },
@@ -746,23 +746,23 @@
     "category_stats": {
       "dev_tool": {
         "count": 52,
-        "mean": 91.77,
-        "median": 93.4
+        "mean": 92.25,
+        "median": 93.49
       },
       "finance_tool": {
         "count": 159,
-        "mean": 89.94,
-        "median": 92.48
+        "mean": 90.29,
+        "median": 92.6
       },
       "text_analysis": {
         "count": 26,
-        "mean": 91.36,
+        "mean": 91.51,
         "median": 93.89
       },
       "fitness_health": {
         "count": 47,
-        "mean": 91.61,
-        "median": 93.64
+        "mean": 92.0,
+        "median": 93.66
       },
       "pet_care": {
         "count": 2,
@@ -771,32 +771,32 @@
       },
       "tasks_manager": {
         "count": 111,
-        "mean": 90.21,
-        "median": 92.55
+        "mean": 90.96,
+        "median": 92.77
       },
       "game": {
         "count": 24,
-        "mean": 92.27,
-        "median": 93.59
+        "mean": 93.21,
+        "median": 93.79
       },
       "data_converter": {
         "count": 20,
-        "mean": 90.53,
-        "median": 92.37
+        "mean": 91.64,
+        "median": 92.88
       },
       "uncategorized": {
         "count": 31,
-        "mean": 65.68,
+        "mean": 65.85,
         "median": 60.39
       },
       "flashcard": {
         "count": 35,
-        "mean": 91.24,
-        "median": 93.14
+        "mean": 91.74,
+        "median": 93.37
       },
       "domain_specific_tool": {
         "count": 48,
-        "mean": 91.1,
+        "mean": 91.12,
         "median": 93.3
       },
       "media_processing": {
@@ -811,14 +811,14 @@
       },
       "note_taking": {
         "count": 33,
-        "mean": 91.57,
-        "median": 93.68
+        "mean": 92.03,
+        "median": 93.79
       }
     }
   },
   "distinction": {
-    "high_score_count": 428,
-    "high_surprise_count": 42
+    "high_score_count": 456,
+    "high_surprise_count": 39
   },
   "gate": {
     "missing_counts": {
@@ -831,10 +831,10 @@
     "late_v1_commit": 49
   },
   "human_review": {
-    "high_disagreement": 18,
+    "high_disagreement": 20,
     "backward_compat_zero": 49,
     "summarize_fallback": 3,
-    "category_disagreement": 60
+    "category_disagreement": 62
   },
   "rubric": {
     "weights": {
@@ -861,5 +861,5 @@
     "score_b": "gpt-5.4-mini",
     "report_narrative": "claude-opus-4-7"
   },
-  "generated_at": "2026-04-20T15:09:48.592479+00:00"
+  "generated_at": "2026-04-21T03:02:02.849485+00:00"
 }

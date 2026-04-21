@@ -549,7 +549,31 @@ rescaled = 60 + (final_raw / 105) × 40</pre>
     </div>
 
     <div class="alert alert-success" style="margin-top:1.5rem;">
-      <strong>成本優化</strong>：所有大量呼叫（summarize、score × 2 providers）均走 Anthropic Message Batches API 與 OpenAI Batch API，享 ~50% 折扣；taxonomy 與 report narrative 單次呼叫走 sync。完整 pipeline 實際花費約 <strong>US$40</strong>，對應 4,243 次 LLM 呼叫（607 + 13 + 1214 + 1214 + 1）。
+      <strong>成本優化</strong>：所有大量呼叫（summarize、score × 2 providers）均走 Anthropic Message Batches API 與 OpenAI Batch API，享 ~50% 折扣；taxonomy 與 report narrative 單次呼叫走 sync。
+    </div>
+
+    <div class="card" style="margin-top:1.5rem;">
+      <div class="card-title">💰 實際執行成本</div>
+      <div class="stats-grid" style="margin-bottom:0;">
+        <div class="stat-card stat-purple">
+          <div class="value">US$11</div>
+          <div class="label">OpenAI API</div>
+          <div class="sub">GPT-5.4 mini（score × 2 phase）</div>
+        </div>
+        <div class="stat-card stat-orange">
+          <div class="value">US$65</div>
+          <div class="label">Anthropic API</div>
+          <div class="sub">Haiku + Opus + Sonnet 加總</div>
+        </div>
+        <div class="stat-card stat-green">
+          <div class="value">US$76</div>
+          <div class="label">總計</div>
+          <div class="sub">對應 ~3049 次 LLM 呼叫</div>
+        </div>
+      </div>
+      <p style="color: var(--text-muted); font-size: 0.85rem; margin-top:1rem; line-height: 1.8;">
+        細項構成：Haiku 4.5 做 607 次 summarize，Opus 4.7 做 taxonomy（13 map + 1 reduce）與 report narrative 各 1 次，Sonnet 4.6 做 1214 次評分（Phase 1 + Phase 2），GPT-5.4 mini 做 1214 次評分（同樣 Phase 1 + Phase 2，加上一次補救性 sync rescore）。大宗 LLM 呼叫走 batch 模式享 50% 折扣——同樣流量若全走 sync，成本會翻倍到 ~US$150 左右。
+      </p>
     </div>
   </section>
 
@@ -558,7 +582,7 @@ rescaled = 60 + (final_raw / 105) × 40</pre>
 <footer class="site-footer">
   <p><strong>AIASE2026 HW2 評分分析報告</strong></p>
   <p style="margin-top:0.5rem;">本頁呈現全班匿名化統計，不列出個別學生 github_id。個人分數請查看 GitHub Classroom 回饋。</p>
-  <p style="margin-top:0.5rem; opacity:0.8;">生成時間：2026-04-21T03:53:54.407489+00:00</p>
+  <p style="margin-top:0.5rem; opacity:0.8;">生成時間：2026-04-21T06:57:54.715859+00:00</p>
 </footer>
 
 <script>
